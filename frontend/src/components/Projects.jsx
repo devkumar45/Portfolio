@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import aiHealth from "../assets/projects/ai-health.png";
 import mentalHealth from "../assets/projects/mental-health.png";
 import portfolio from "../assets/projects/portfolio.png";
@@ -50,6 +52,13 @@ function Projects() {
 
           <div className="project-buttons">
 
+            <Link
+              to="/project/ai-health"
+              className="description-btn"
+            >
+              📄 Description
+            </Link>
+
             <a
               href="https://github.com/devkumar45/ai-health-care.git"
               target="_blank"
@@ -92,20 +101,27 @@ function Projects() {
 
           <div className="project-buttons">
 
-            <a
-              href="https://github.com/devkumar45/Mental-Health-prediction.git"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-btn"
-            >
-              GitHub
-            </a>
+  <Link
+    to="/project/mental-health"
+    className="description-btn"
+  >
+    📄 Description
+  </Link>
 
-            <button className="demo-btn" disabled>
-              Coming Soon
-            </button>
+  <a
+    href="https://github.com/devkumar45/Mental-Health-prediction.git"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="github-btn"
+  >
+    GitHub
+  </a>
 
-          </div>
+  <button className="demo-btn" disabled>
+    Coming Soon
+  </button>
+
+</div>
 
         </div>
 
@@ -126,6 +142,13 @@ function Projects() {
           </div>
 
           <div className="project-buttons">
+
+            <Link
+  to="/project/student-performance"
+  className="description-btn"
+>
+  📄 Description
+</Link>
 
             <button className="github-btn" disabled>
               Coming Soon
@@ -165,20 +188,27 @@ function Projects() {
 
           <div className="project-buttons">
 
-            <a
-              href="https://github.com/devkumar45/Portfolio.git"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-btn"
-            >
-              GitHub
-            </a>
+  <Link
+    to="/project/portfolio"
+    className="description-btn"
+  >
+    📄 Description
+  </Link>
 
-            <button className="demo-btn" disabled>
-              Coming Soon
-            </button>
+  <a
+    href="https://github.com/devkumar45/Portfolio.git"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="github-btn"
+  >
+    GitHub
+  </a>
 
-          </div>
+  <button className="demo-btn" disabled>
+    Coming Soon
+  </button>
+
+</div>
 
         </div>
 
