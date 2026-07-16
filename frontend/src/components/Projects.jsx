@@ -1,3 +1,7 @@
+import aiHealth from "../assets/projects/ai-health.png";
+import mentalHealth from "../assets/projects/mental-health.png";
+import portfolio from "../assets/projects/portfolio.png";
+
 function Projects() {
   return (
     <section
@@ -17,6 +21,16 @@ function Projects() {
         {/* AI Health Assistant */}
         <div className="project-card">
 
+          <img
+            src={aiHealth}
+            alt="AI Health Assistant"
+            className="project-image"
+          />
+
+          <span className="featured-badge">
+            ⭐ Featured Project
+          </span>
+
           <h3>🏥 AI Health Assistant</h3>
 
           <p>
@@ -27,7 +41,11 @@ function Projects() {
           </p>
 
           <div className="tech-stack">
-            React • Flask • Python • MySQL • AI
+            <span>React</span>
+            <span>Flask</span>
+            <span>Python</span>
+            <span>MySQL</span>
+            <span>AI</span>
           </div>
 
           <div className="project-buttons">
@@ -52,6 +70,12 @@ function Projects() {
         {/* Mental Health Prediction */}
         <div className="project-card">
 
+          <img
+            src={mentalHealth}
+            alt="Mental Health Prediction"
+            className="project-image"
+          />
+
           <h3>🧠 Mental Health Prediction</h3>
 
           <p>
@@ -60,7 +84,10 @@ function Projects() {
           </p>
 
           <div className="tech-stack">
-            Python • Flask • Scikit-learn • MySQL
+            <span>Python</span>
+            <span>Flask</span>
+            <span>Scikit-learn</span>
+            <span>MySQL</span>
           </div>
 
           <div className="project-buttons">
@@ -93,7 +120,9 @@ function Projects() {
           </p>
 
           <div className="tech-stack">
-            Python • Pandas • Scikit-learn
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scikit-learn</span>
           </div>
 
           <div className="project-buttons">
@@ -113,6 +142,12 @@ function Projects() {
         {/* Portfolio Website */}
         <div className="project-card">
 
+          <img
+            src={portfolio}
+            alt="Portfolio Website"
+            className="project-image"
+          />
+
           <h3>🌐 Personal Portfolio Website</h3>
 
           <p>
@@ -122,7 +157,10 @@ function Projects() {
           </p>
 
           <div className="tech-stack">
-            React • CSS • Flask • MySQL
+            <span>React</span>
+            <span>CSS</span>
+            <span>Flask</span>
+            <span>MySQL</span>
           </div>
 
           <div className="project-buttons">
@@ -156,7 +194,11 @@ function Projects() {
           </p>
 
           <div className="tech-stack">
-            AI • Machine Learning • Data Science • React • Python
+            <span>AI</span>
+            <span>Machine Learning</span>
+            <span>Data Science</span>
+            <span>React</span>
+            <span>Python</span>
           </div>
 
           <div className="project-buttons">

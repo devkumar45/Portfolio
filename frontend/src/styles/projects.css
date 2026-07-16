@@ -72,8 +72,26 @@
 
 .tech-stack {
     margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-stack span {
+    background: rgba(56, 189, 248, 0.15);
     color: #38bdf8;
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 14px;
     font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.tech-stack span:hover {
+    background: #38bdf8;
+    color: white;
+    transform: translateY(-2px);
 }
 
 
@@ -154,4 +172,19 @@
     .project-image {
         height: 200px;
     }
+}
+
+
+/* Featured Badge */
+
+.featured-badge {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 8px 14px;
+    background: #38bdf8;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(56, 189, 248, .35);
 }
