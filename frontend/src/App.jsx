@@ -2,6 +2,7 @@ import "./styles/contactModal.css";
 import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,6 +17,7 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
 import AIHealth from "./pages/AIHealth";
 import MentalHealth from "./pages/MentalHealth";
 import StudentPerformance from "./pages/StudentPerformance";
@@ -28,6 +30,7 @@ import "./styles/education.css";
 import "./styles/contact.css";
 import "./styles/footer.css";
 import "./styles/projectDetails.css";
+
 
 function App() {
   const [loading, setLoading] = useState(true);
